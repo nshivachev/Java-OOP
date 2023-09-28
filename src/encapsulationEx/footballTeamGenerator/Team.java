@@ -1,4 +1,4 @@
-package footballTeamGenerator;
+package encapsulationEx.footballTeamGenerator;
 
 import java.util.ArrayList;
 import java.util.List;
