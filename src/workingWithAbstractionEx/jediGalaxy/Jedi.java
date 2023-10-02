@@ -1,8 +1,8 @@
 package workingWithAbstractionEx.jediGalaxy;
 
 public class Jedi {
-    public int move(int jediRow, int jediCol, StarField starField) {
-        int collectedStar = 0;
+    public long move(int jediRow, int jediCol, StarField starField) {
+        long collectedStar = 0;
 
         while (jediRow >= 0 && jediCol < starField.getColsNumber()) {
             if (starField.isInBound(jediRow, jediCol)) {

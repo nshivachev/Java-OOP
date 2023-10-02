@@ -31,6 +31,6 @@ public class StarField {
     }
 
     public boolean isInBound(int row, int col) {
-        return row >=0 && row < starField.length && col >= 0 && col < starField[0].length;
+        return row >= 0 && row < starField.length && col >= 0 && col < starField[0].length;
     }
 }
