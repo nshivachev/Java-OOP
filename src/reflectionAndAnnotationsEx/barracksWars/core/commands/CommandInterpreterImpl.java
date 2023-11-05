@@ -9,7 +9,6 @@ import reflectionAndAnnotationsEx.barracksWars.interfaces.UnitFactory;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
-import java.util.Arrays;
 
 public class CommandInterpreterImpl implements CommandInterpreter {
     private static final String COMMANDS_PACKAGE_NAME = "reflectionAndAnnotationsEx.barracksWars.core.commands.";
